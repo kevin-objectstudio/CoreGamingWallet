@@ -1,0 +1,22 @@
+{
+  "name": "CoreGamingWallet",
+  "version": "0.1.0",
+  "summary": "A short description of CoreGamingWallet.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kevin Riley/CoreGamingWallet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kevin Riley": "kevin@objectstudio.co"
+  },
+  "source": {
+    "git": "https://github.com/Kevin Riley/CoreGamingWallet.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CoreGamingWallet/Classes/**/*"
+}

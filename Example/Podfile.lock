@@ -1,0 +1,16 @@
+PODS:
+  - CoreGamingWallet (0.1.0)
+
+DEPENDENCIES:
+  - CoreGamingWallet (from `../`)
+
+EXTERNAL SOURCES:
+  CoreGamingWallet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoreGamingWallet: 09fb575ff11ba18b9b09ad23c8f12c9bfece4232
+
+PODFILE CHECKSUM: 070245c096267aeca7ccc889005f370be665837a
+
+COCOAPODS: 1.5.3

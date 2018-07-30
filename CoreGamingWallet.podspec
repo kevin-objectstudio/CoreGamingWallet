@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CoreGamingWallet'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CoreGamingWallet.'
+  s.summary          = 'Core and Gaming Wallet functionality.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Core and Gaming Wallet functionality for the Play+ Mobile Application.
                        DESC
 
-  s.homepage         = 'https://github.com/Kevin Riley/CoreGamingWallet'
+  s.homepage         = 'https://github.com/kevin-objectstudio/CoreGamingWallet'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kevin Riley' => 'kevin@objectstudio.co' }
-  s.source           = { :git => 'https://github.com/Kevin Riley/CoreGamingWallet.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kevin-objectstudio/CoreGamingWallet.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'CoreGamingWallet/Classes/**/*'
   
@@ -37,6 +37,8 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'CoreBluetooth'
+  s.dependency 'SwiftyBluetooth', '~> 1.0.0'
+  s.dependency 'SwiftyBeaver', '~> 1.6.0'
+  s.dependency 'PTPopupWebView', '~> 0.4.0'
 end

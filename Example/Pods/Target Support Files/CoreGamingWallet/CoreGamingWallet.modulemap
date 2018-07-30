@@ -1,0 +1,6 @@
+framework module CoreGamingWallet {
+  umbrella header "CoreGamingWallet-umbrella.h"
+
+  export *
+  module * { export * }
+}

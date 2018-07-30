@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D811C493778FB1EEF7242426A6AA041 /* Pods-CoreGamingWallet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FBE7EBA1CBE0D0383410A468EB7DB /* Pods-CoreGamingWallet_Tests-dummy.m */; };
+		206D143AD26FDAF5B838F8F8D248D24D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AADF9D161E447706A96594B9BE9152 /* ReplaceMe.swift */; };
+		4B9CE8F86A1C3443B42EEC4DE7E2F51F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8D0ABAD2C8D4CEE3F731B80461D64E4B /* Pods-CoreGamingWallet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68ED9F31C95CFD8F1A9AF85C01C396A8 /* Pods-CoreGamingWallet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9DA43D397A72E8475993C150EA4BBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D9032AF25F98BAA631A37A9FD9E5C29F /* CoreGamingWallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6308B05D8B3929FADC9FCA6EDD0D73A9 /* CoreGamingWallet-dummy.m */; };
+		E4535ABC320B15097116441112DCD052 /* CoreGamingWallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B733A5BF9C3096F9D5DC1936D60DBDDF /* CoreGamingWallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B08BE6D81DC857B804E760ACDB6EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDF43BF35211C4F14841BDA18A00D3B;
+			remoteInfo = CoreGamingWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0818FFA4C192B40FCFD27878921D3F15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		21398EFE00A67DB55C6FB9C743A89B03 /* CoreGamingWallet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CoreGamingWallet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D75F7174B267AC236B25DB16C4AD239 /* Pods-CoreGamingWallet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoreGamingWallet_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3F015FFF19405930F261B4163960291C /* CoreGamingWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreGamingWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F04EA8BC96A52FF9D9D4ABFDC234892 /* Pods-CoreGamingWallet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoreGamingWallet_Tests.modulemap"; sourceTree = "<group>"; };
+		586FBDABE30B26EE4B528B43B49E03EB /* Pods-CoreGamingWallet_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoreGamingWallet_Tests-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		619FCA0B6A9488910D68682FECBAECA6 /* Pods-CoreGamingWallet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoreGamingWallet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6308B05D8B3929FADC9FCA6EDD0D73A9 /* CoreGamingWallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreGamingWallet-dummy.m"; sourceTree = "<group>"; };
+		63F7FA72F1B09D412B51E80E85F7080E /* CoreGamingWallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoreGamingWallet.modulemap; sourceTree = "<group>"; };
+		68ED9F31C95CFD8F1A9AF85C01C396A8 /* Pods-CoreGamingWallet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoreGamingWallet_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6A2FBE7EBA1CBE0D0383410A468EB7DB /* Pods-CoreGamingWallet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoreGamingWallet_Tests-dummy.m"; sourceTree = "<group>"; };
+		7EE9B2FA745EAFB9C5BA438E8D14F894 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8FE87894A7F37217A95122A55C9FBDFA /* CoreGamingWallet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreGamingWallet.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB737713D1019E7256E156635AFDCF69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B733A5BF9C3096F9D5DC1936D60DBDDF /* CoreGamingWallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreGamingWallet-umbrella.h"; sourceTree = "<group>"; };
+		B75429A44AE2C0BF2CB448720C0547C4 /* Pods_CoreGamingWallet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreGamingWallet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D301CF93BA01AD1016CC70C1DD4963A4 /* Pods-CoreGamingWallet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoreGamingWallet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3042DD629389D0D47059F0502153E7A /* Pods-CoreGamingWallet_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoreGamingWallet_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E83ABA259CFECAFC4F55BFBFEAC245F0 /* CoreGamingWallet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreGamingWallet-prefix.pch"; sourceTree = "<group>"; };
+		EA0555ED461F89188DE7E94618B931E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B1394E9EC08FCC6D3B11A8A10CC083 /* Pods-CoreGamingWallet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoreGamingWallet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6AADF9D161E447706A96594B9BE9152 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CoreGamingWallet/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AF9F4FE86C4091BE3708FAE1E2CBBD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9CE8F86A1C3443B42EEC4DE7E2F51F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920F805E912CA534ADA0B6356F158D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9DA43D397A72E8475993C150EA4BBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BBB42A5E097E5038AC3AD0BE7B72112 /* Pods-CoreGamingWallet_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0555ED461F89188DE7E94618B931E0 /* Info.plist */,
+				4F04EA8BC96A52FF9D9D4ABFDC234892 /* Pods-CoreGamingWallet_Tests.modulemap */,
+				F3B1394E9EC08FCC6D3B11A8A10CC083 /* Pods-CoreGamingWallet_Tests-acknowledgements.markdown */,
+				D301CF93BA01AD1016CC70C1DD4963A4 /* Pods-CoreGamingWallet_Tests-acknowledgements.plist */,
+				6A2FBE7EBA1CBE0D0383410A468EB7DB /* Pods-CoreGamingWallet_Tests-dummy.m */,
+				E3042DD629389D0D47059F0502153E7A /* Pods-CoreGamingWallet_Tests-frameworks.sh */,
+				586FBDABE30B26EE4B528B43B49E03EB /* Pods-CoreGamingWallet_Tests-resources.sh */,
+				68ED9F31C95CFD8F1A9AF85C01C396A8 /* Pods-CoreGamingWallet_Tests-umbrella.h */,
+				619FCA0B6A9488910D68682FECBAECA6 /* Pods-CoreGamingWallet_Tests.debug.xcconfig */,
+				3D75F7174B267AC236B25DB16C4AD239 /* Pods-CoreGamingWallet_Tests.release.xcconfig */,
+			);
+			name = "Pods-CoreGamingWallet_Tests";
+			path = "Target Support Files/Pods-CoreGamingWallet_Tests";
+			sourceTree = "<group>";
+		};
+		394C5368B590FAD9706C1A03AA191863 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				21398EFE00A67DB55C6FB9C743A89B03 /* CoreGamingWallet.podspec */,
+				7EE9B2FA745EAFB9C5BA438E8D14F894 /* LICENSE */,
+				0818FFA4C192B40FCFD27878921D3F15 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7502FFB6210FCA4B00C9A922 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7502FFB7210FCA5900C9A922 /* GamingWalletDeviceManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GamingWalletDeviceManager;
+			sourceTree = "<group>";
+		};
+		7502FFB8210FCA6900C9A922 /* GamingWalletManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GamingWalletManager;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				96B5147F3AD8AF2D76CC351DA40669D0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9367294E4CB205EE0E2350145E0E3388 /* Products */,
+				BC4C2885D1A0BE3B53B81DA9A1B8B498 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B32819D506477B3935BFE15170A00CA /* CoreGamingWallet */ = {
+			isa = PBXGroup;
+			children = (
+				7502FFB8210FCA6900C9A922 /* GamingWalletManager */,
+				7502FFB7210FCA5900C9A922 /* GamingWalletDeviceManager */,
+				7502FFB6210FCA4B00C9A922 /* Core */,
+				F6AADF9D161E447706A96594B9BE9152 /* ReplaceMe.swift */,
+				394C5368B590FAD9706C1A03AA191863 /* Pod */,
+				B98CB4C0FACB125AA9209791C31F050A /* Support Files */,
+			);
+			name = CoreGamingWallet;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9367294E4CB205EE0E2350145E0E3388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F015FFF19405930F261B4163960291C /* CoreGamingWallet.framework */,
+				B75429A44AE2C0BF2CB448720C0547C4 /* Pods_CoreGamingWallet_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B5147F3AD8AF2D76CC351DA40669D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B32819D506477B3935BFE15170A00CA /* CoreGamingWallet */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B98CB4C0FACB125AA9209791C31F050A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F7FA72F1B09D412B51E80E85F7080E /* CoreGamingWallet.modulemap */,
+				8FE87894A7F37217A95122A55C9FBDFA /* CoreGamingWallet.xcconfig */,
+				6308B05D8B3929FADC9FCA6EDD0D73A9 /* CoreGamingWallet-dummy.m */,
+				E83ABA259CFECAFC4F55BFBFEAC245F0 /* CoreGamingWallet-prefix.pch */,
+				B733A5BF9C3096F9D5DC1936D60DBDDF /* CoreGamingWallet-umbrella.h */,
+				AB737713D1019E7256E156635AFDCF69 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CoreGamingWallet";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC4C2885D1A0BE3B53B81DA9A1B8B498 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BBB42A5E097E5038AC3AD0BE7B72112 /* Pods-CoreGamingWallet_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C53357708CA391EB8D760743DD0CEC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4535ABC320B15097116441112DCD052 /* CoreGamingWallet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6406D04BC85563E96C12D0749894EE8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0ABAD2C8D4CEE3F731B80461D64E4B /* Pods-CoreGamingWallet_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7C8896B1E94550230390D351B1E6A212 /* Pods-CoreGamingWallet_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A04449F2C775F387CB0D2892A532C8F /* Build configuration list for PBXNativeTarget "Pods-CoreGamingWallet_Tests" */;
+			buildPhases = (
+				11267DCB9AEA7C34F053C32D2A7A14B8 /* Sources */,
+				1AF9F4FE86C4091BE3708FAE1E2CBBD3 /* Frameworks */,
+				6406D04BC85563E96C12D0749894EE8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4318D1B71B29585DBBF8D03B95A31C13 /* PBXTargetDependency */,
+			);
+			name = "Pods-CoreGamingWallet_Tests";
+			productName = "Pods-CoreGamingWallet_Tests";
+			productReference = B75429A44AE2C0BF2CB448720C0547C4 /* Pods_CoreGamingWallet_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFDF43BF35211C4F14841BDA18A00D3B /* CoreGamingWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8FCAF5964C9275BE289F2B47E2CDF6A /* Build configuration list for PBXNativeTarget "CoreGamingWallet" */;
+			buildPhases = (
+				0165E3990B04FE80226FFB538F04374F /* Sources */,
+				920F805E912CA534ADA0B6356F158D60 /* Frameworks */,
+				3C53357708CA391EB8D760743DD0CEC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreGamingWallet;
+			productName = CoreGamingWallet;
+			productReference = 3F015FFF19405930F261B4163960291C /* CoreGamingWallet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9367294E4CB205EE0E2350145E0E3388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDF43BF35211C4F14841BDA18A00D3B /* CoreGamingWallet */,
+				7C8896B1E94550230390D351B1E6A212 /* Pods-CoreGamingWallet_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0165E3990B04FE80226FFB538F04374F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9032AF25F98BAA631A37A9FD9E5C29F /* CoreGamingWallet-dummy.m in Sources */,
+				206D143AD26FDAF5B838F8F8D248D24D /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11267DCB9AEA7C34F053C32D2A7A14B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D811C493778FB1EEF7242426A6AA041 /* Pods-CoreGamingWallet_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4318D1B71B29585DBBF8D03B95A31C13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoreGamingWallet;
+			target = EFDF43BF35211C4F14841BDA18A00D3B /* CoreGamingWallet */;
+			targetProxy = 45B08BE6D81DC857B804E760ACDB6EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04C6BB677C79B1DD24644C2BB1FD4E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE87894A7F37217A95122A55C9FBDFA /* CoreGamingWallet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreGamingWallet/CoreGamingWallet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreGamingWallet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoreGamingWallet/CoreGamingWallet.modulemap";
+				PRODUCT_MODULE_NAME = CoreGamingWallet;
+				PRODUCT_NAME = CoreGamingWallet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AA7C441B411EF57D1C93D8FD962F79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D75F7174B267AC236B25DB16C4AD239 /* Pods-CoreGamingWallet_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoreGamingWallet_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoreGamingWallet_Tests/Pods-CoreGamingWallet_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19BE820170A6F9F6962A9A6713DC265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE87894A7F37217A95122A55C9FBDFA /* CoreGamingWallet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreGamingWallet/CoreGamingWallet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreGamingWallet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoreGamingWallet/CoreGamingWallet.modulemap";
+				PRODUCT_MODULE_NAME = CoreGamingWallet;
+				PRODUCT_NAME = CoreGamingWallet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6786F41813A4600A7FE7F5CDE19A55D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619FCA0B6A9488910D68682FECBAECA6 /* Pods-CoreGamingWallet_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoreGamingWallet_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoreGamingWallet_Tests/Pods-CoreGamingWallet_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A04449F2C775F387CB0D2892A532C8F /* Build configuration list for PBXNativeTarget "Pods-CoreGamingWallet_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6786F41813A4600A7FE7F5CDE19A55D9 /* Debug */,
+				0AA7C441B411EF57D1C93D8FD962F79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8FCAF5964C9275BE289F2B47E2CDF6A /* Build configuration list for PBXNativeTarget "CoreGamingWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C6BB677C79B1DD24644C2BB1FD4E3F /* Debug */,
+				19BE820170A6F9F6962A9A6713DC265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

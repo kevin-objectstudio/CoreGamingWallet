@@ -13,6 +13,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+Includes Core and Gaming Wallet functionality for the Play+ Mobile Application.
+
 CoreGamingWallet is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
